@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="bg-teal-500 text-center text-white dark:bg-neutral-600">
+    <div className="bg-teal-500 text-center text-white dark:bg-neutral-600 w-full flex justify-center">
       <div className="container pt-11 justify-center text-lg">
         {/* <h2>Donativo</h2> */}
         <a
