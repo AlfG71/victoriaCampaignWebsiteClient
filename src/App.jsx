@@ -6,14 +6,15 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Footer from './components/Footer';
-import BackGroundIMG from './assets/Fotos_para_pagina_de_Myrna/victor-e015e487be9999636f9ea6350ff28a8a-1200x800-876085745.jpeg'
+import BackGroundIMG from './assets/Fotos_para_pagina_de_Myrna/logo_nombre_de_Mryna.jpg'
 
 function App() {
   return (
-    <div className="bg-blue-500 bg-opacity-75 App full-height">
+    <div className="bg-blue-500 bg-opacity-75 App full-height w-screen h-screen">
       <Navbar />
 
-      <div className="flex-1 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${BackGroundIMG})` }}>
+      <div id="home" className="flex-1 bg-cover bg-center bg-no-repeat w-full" style={{ backgroundImage: `url(${BackGroundIMG})` }}>
+
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

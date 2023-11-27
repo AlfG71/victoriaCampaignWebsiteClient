@@ -1,4 +1,3 @@
-import MVCLogo from "../assets/Fotos_para_pagina_de_Myrna/el-logo-de-victoria-ciudadana_Autogiro-Arte-Actual.jpg"
 import LOGOConNombre from "../assets/Fotos_para_pagina_de_Myrna/logo_nombre_de_Mryna.jpg"
 
 
@@ -9,10 +8,6 @@ const Navbar = () => {
         <img src={ LOGOConNombre } alt="Foto del logo del movimiento" className="rounded-full w-24 h-14 top-1/2"/>
 
       <div className="flex flex-shrink-0 mr-6">
-
-        {/* <span className="left-1/3 font-semibold text-xl tracking-tight">
-          2024
-        </span> */}
 
       </div>
 

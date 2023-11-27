@@ -2,15 +2,15 @@
 
 const Footer = () => {
   return (
-    <div className="bg-teal-500 text-center text-white dark:bg-neutral-600 w-full flex justify-center">
-      <div className="container pt-11 justify-center text-lg">
-        {/* <h2>Donativo</h2> */}
+    <div className="bg-teal-500 text-center text-white dark:bg-neutral-600 w-full flex justify-center h-full">
+      <div className="container pt-11 justify-center text-lg flex flex-col items-center">
         <a
             href="#"
-            class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+            class="inline-block text-sm px-4 py-2 leading-none border rounded-full w-24 h-14 items-center text-white justify-center flex border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
           >Donativo</a>
-        <hr/>
+        <hr className="w-full border-t border-neutral-700 my-4"/>
         <h1>Se parte de nuestra campaña en las redes</h1>
+        <br/>
         <div className="mb-9 flex justify-center">
           <a className="mr-9 text-neutral-800 dark:text-neutral-200">
             <svg
