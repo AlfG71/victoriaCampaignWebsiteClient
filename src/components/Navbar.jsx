@@ -52,7 +52,7 @@ const Navbar = () => {
         <div>
           <a
             href="#"
-            className="inline-block text-sm px-4 py-2 leading-none border bg-white text-black text-center border-black hover:border-transparent hover:text-white hover:bg-black mt-4 lg:mt-0 rounded-full w-24 h-14 top-1/2 flex items-center justify-center"
+            className="inline-block text-lg px-4 py-2 leading-none border bg-white text-black text-center border-black hover:border-transparent hover:text-white hover:bg-black mt-4 lg:mt-0 rounded-full w-24 h-14 top-1/2 flex items-center justify-center"
           >Donativo</a>
         </div>
       {/* </div> */}
