@@ -2,11 +2,11 @@
 
 const Footer = () => {
   return (
-    <div className="bg-emerald-600 text-center text-white  w-full flex justify-center h-full">
+    <div className="bg-campaignGreen text-center text-white  w-full flex justify-center h-full">
       <div className="container pt-11 justify-center text-lg flex flex-col items-center">
         <a
             href="#"
-            class="inline-block text-lg px-4 py-2 leading-none border bg-white text-black text-center border-black hover:border-transparent hover:text-white hover:bg-black mt-4 lg:mt-0 rounded-full w-24 h-14 top-1/2 flex items-center justify-center"
+            class="inline-block text-lg px-4 py-2 leading-none border bg-campaignYellow text-black text-center border-black hover:border-transparent hover:text-white hover:bg-black mt-4 lg:mt-0 rounded-full w-24 h-14 top-1/2 flex items-center justify-center"
           >Donativo</a>
         <hr className="w-full border-t border-neutral-700 my-4"/>
         <h1>Se parte de nuestra campaña en las redes</h1>

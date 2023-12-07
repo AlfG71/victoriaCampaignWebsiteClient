@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}", 'node_modules/flowbite-react/lib/esm/**/*.js'],
   mode: "jit",
   theme: {
     extend: {
@@ -9,6 +9,10 @@ module.exports = {
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
+        campaignYellow: "#E2A42F",
+        campaignGreen: "#9ACD32",
+        backgroundBlue: "#7BAFD4",
+        donateButtonBackGround: "#0095B6",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -23,5 +27,5 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 };
